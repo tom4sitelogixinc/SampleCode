@@ -130,7 +130,7 @@ function GetFhData() {
     var aFhid = getQueryString()["fhid"];
     var aPid = getQueryString()["pid"];
     var aCobrand = getQueryString()["cobrand"];
-    var url = "http://www.sitelogixinc.com/JasonpWebService?callback=JsonPCallBack&fhid=" + aFhid + "&cobrand=" + aCobrand + "&pid=" + aPid;
+    var url = "https://www.sitelogixinc.com/JasonpWebService?callback=JsonPCallBack&fhid=" + aFhid + "&cobrand=" + aCobrand + "&pid=" + aPid;
     Jsonp(url);
 }
 
